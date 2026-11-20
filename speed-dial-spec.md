@@ -224,7 +224,7 @@ Phase 1 and Phase 2 ship no server and no server code paths. Everything in this 
 ### 8.1 One server program, two ways to run it
 - A single server program provides everything server-side: place search and weather proxy (5.2), title/logo lookup (4.10), and encrypted sync (9).
 - **Default:** the developer's own hosted instance. A fresh install uses it without any configuration.
-- **Self-hosted:** the server source is published under an open-source license, with a container image and a setup guide. A self-hosted instance exposes the same API as the default one.
+- **Self-hosted:** the server source is published under the MIT License (like the rest of the project), with a container image and a setup guide. A self-hosted instance exposes the same API as the default one.
 - The client treats both the same way. Zero-knowledge sync (9) holds whoever runs the server; lookup and weather privacy (4.10, 5.2) depend on the operator, and the disclosures say so.
 
 ### 8.2 Choosing the server
